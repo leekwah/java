@@ -22,6 +22,5 @@ public class PromotionExample {
 		floatValue = 100.5f;
 		double doubleValue = floatValue;
 		System.out.println("doubleValue : "+doubleValue); // 100.5은 double값이다.
-		
 	}
 }

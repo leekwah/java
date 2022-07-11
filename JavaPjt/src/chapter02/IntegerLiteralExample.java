@@ -17,5 +17,4 @@ public class IntegerLiteralExample {
 		System.out.println("var3 : " + var3); // var3 : 365
 		System.out.println("var4 : " + var4); // var4 : 179
 	}
-
 }
