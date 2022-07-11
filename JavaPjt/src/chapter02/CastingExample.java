@@ -3,16 +3,16 @@ package chapter02;
 public class CastingExample {
 	public static void main(String[] args) {
 		int intValue = 44032;
-		char charValue = (char)intValue; // char·Î ¼öµ¿ Çüº¯È¯ ÇÊ¿ä
-		System.out.println(charValue); // °¡ Ãâ·Â
+		char charValue = (char)intValue; //charë¡œ ìˆ˜ë™ í˜•ë³€í™˜ í•„ìš”
+		System.out.println(charValue); //ê°€ ì¶œë ¥
 		
 		//long longValue=500;
 		long longValue=5009998884L;
-		intValue = (int)longValue; // Å« °ª¿¡¼­ ÀÛÀº °ªÀ¸·Î °¡±â ¶§¹®¿¡, int·Î ¼öµ¿ Çüº¯È¯ ÇÊ¿ä
-		System.out.println(intValue); // 715031588 -> long¿¡ ´ëÀÔÇÑ °ªÀ» int¿¡ ´ëÀÔÇÒ ¼ö ¾ø±â¿¡ ¾û¶×ÇÑ °ªÀÌ Ãâ·ÂµÈ´Ù.
+		intValue = (int)longValue; //í° ê°’ì—ì„œ ì‘ì€ ê°’ìœ¼ë¡œ ê°€ê¸° ë•Œë¬¸ì—, intë¡œ ìˆ˜ë™ í˜•ë³€í™˜ í•„ìš”
+		System.out.println(intValue); //715031588 -> longì— ëŒ€ì…í•œ ê°’ì„ intì— ëŒ€ì…í•  ìˆ˜ ì—†ê¸°ì— ì—‰ëš±í•œ ê°’ì´ ì¶œë ¥ëœë‹¤.
 		
 		double doubleValue = 3.14;
 		intValue = (int)doubleValue;
-		System.out.println(intValue); //3 Ãâ·Â
+		System.out.println(intValue); //3 ì¶œë ¥
 	}
 }

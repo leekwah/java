@@ -2,9 +2,9 @@ package chapter02;
 
 public class EscapeExample {
 	public static void main(String[] args) {
-		System.out.println("¹øÈ£\tÀÌ¸§\tÁ÷¾÷"); // \t´Â tabÀ» ÀÇ¹ÌÇÑ´Ù.
-		System.out.print("Çà ´ÜÀ§ Ãâ·Â\n"); // \nÀ¸·Î ÁÙ¹Ù²ŞÀ» ÇÒ ¼ö ÀÖ´Ù.
-		System.out.println("¿ì¸®´Â \"°³¹ßÀÚ\" ÀÔ´Ï´Ù."); // \·Î Æ¯¼ö¹®ÀÚ ¾Õ¿¡ ¾´´Ù.
-		System.out.println("º½\\¿©¸§\\°¡À»\\°Ü¿ï"); // \\¸¦ ÇÏ¸é, °¢°¢ ¿ª½½·¡½¬°¡ »ı±ä´Ù. 
+		System.out.println("ë²ˆí˜¸\tì´ë¦„\tì§ì—…"); //\tëŠ” tabì„ ì˜ë¯¸í•œë‹¤.
+		System.out.print("í–‰ ë‹¨ìœ„ ì¶œë ¥\n"); //\nìœ¼ë¡œ ì¤„ë°”ê¿ˆì„ í•  ìˆ˜ ìˆë‹¤.
+		System.out.println("ìš°ë¦¬ëŠ” \"ê°œë°œì\" ì…ë‹ˆë‹¤."); //\ë¡œ íŠ¹ìˆ˜ë¬¸ì ì•ì— ì“´ë‹¤.
+		System.out.println("ë´„\\ì—¬ë¦„\\ê°€ì„\\ê²¨ìš¸"); //\\ë¥¼ í•˜ë©´, ê°ê° ì—­ìŠ¬ë˜ì‰¬ê°€ ìƒê¸´ë‹¤. 
 	}
 }

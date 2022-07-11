@@ -6,15 +6,15 @@ public class CharExample {
 		char c2 = 65;
 		char c3 = '\u0041';
 		
-		char c4 = '°¡';
+		char c4 = 'ê°€';
 		char c5 = 44032;
 		char c6 = '\uac00';
 		
-		System.out.println(c1); // A Ãâ·Â
-		System.out.println(c2); // 65 = UNICODE·Î A
-		System.out.println(c3); // '¿ª½½·¡½¬u'´Â 16Áø¼ö 0041 = 65
-		System.out.println(c4); // °¡ Ãâ·Â
-		System.out.println(c5); // UNICODE 44032 = °¡ 
-		System.out.println(c6); // '¿ª½½·¡½¬u' 16Áø¼ö ac00À» 10Áø¼ö·Î ¹Ù²Ù¸é 44032°¡ µÈ´Ù.
+		System.out.println(c1); //A ì¶œë ¥
+		System.out.println(c2); //65 = UNICODEë¡œ A
+		System.out.println(c3); //'ì—­ìŠ¬ë˜ì‰¬u'ëŠ” 16ì§„ìˆ˜ 0041 = 65
+		System.out.println(c4); //ê°€ ì¶œë ¥
+		System.out.println(c5); //UNICODE 44032 = ê°€ 
+		System.out.println(c6); //'ì—­ìŠ¬ë˜ì‰¬u' 16ì§„ìˆ˜ ac00ì„ 10ì§„ìˆ˜ë¡œ ë°”ê¾¸ë©´ 44032ê°€ ëœë‹¤.
 	}
 }

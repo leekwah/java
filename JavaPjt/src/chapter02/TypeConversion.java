@@ -5,12 +5,12 @@ public class TypeConversion {
 		byte b = 127; 
 		int i = 100;
 		System.out.println(b+i); //227 // type = int 
-		System.out.println(10/4); //int·Î °è»êÇß±â ¶§¹®¿¡ intÀÎ 2°¡ ³ª¿Â´Ù. 
-		System.out.println(10.0/4); //½Ç¼öÀÎ 10.0À¸·Î °è»êÇÏ¸é, 2.5°¡ Ãâ·ÂµÈ´Ù. 
-		System.out.println(10/4.0); //½Ç¼öÀÎ 10.0À¸·Î °è»êÇÏ¸é, 2.5°¡ Ãâ·ÂµÈ´Ù. 
-		System.out.println(2.9 + 1.8); //4.7 
-		System.out.println((int)2.9 + 1.8); //¾Õ¿¡ 2.9¸¦ int·Î 2·Î ¹Ù²å±â ¶§¹®¿¡ 2 + 1.8 ÀÌ µÈ °ÍÀÌ´Ù.
-		System.out.println((int)(2.9 + 1.8)); //4.7À» int·Î ¹Ù²å±â ¶§¹®¿¡ 4°¡ µÈ´Ù.
-		System.out.println((int)2.9 + (int)1.8); //2 + 1ÀÌ µÇ±â¿¡ 3ÀÌ µÈ´Ù.
+		System.out.println(10/4); //intë¡œ ê³„ì‚°í–ˆê¸° ë•Œë¬¸ì— intì¸ 2ê°€ ë‚˜ì˜¨ë‹¤. 
+		System.out.println(10.0/4); //ì‹¤ìˆ˜ì¸ 10.0ìœ¼ë¡œ ê³„ì‚°í•˜ë©´, 2.5ê°€ ì¶œë ¥ëœë‹¤. 
+		System.out.println(10/4.0); //ì‹¤ìˆ˜ì¸ 10.0ìœ¼ë¡œ ê³„ì‚°í•˜ë©´, 2.5ê°€ ì¶œë ¥ëœë‹¤. 
+		System.out.println(2.9 + 1.8); //4.7
+		System.out.println((int)2.9 + 1.8); //ì•ì— 2.9ë¥¼ intë¡œ 2ë¡œ ë°”ê¿¨ê¸° ë•Œë¬¸ì— 2 + 1.8 ì´ ëœ ê²ƒì´ë‹¤.
+		System.out.println((int)(2.9 + 1.8)); //4.7ì„ intë¡œ ë°”ê¿¨ê¸° ë•Œë¬¸ì— 4ê°€ ëœë‹¤.
+		System.out.println((int)2.9 + (int)1.8); //2 + 1ì´ ë˜ê¸°ì— 3ì´ ëœë‹¤.
 	}
 }

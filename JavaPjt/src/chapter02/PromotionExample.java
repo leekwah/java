@@ -4,23 +4,23 @@ public class PromotionExample {
 	public static void main(String[] args) {
 		byte byteValue = 10;
 		int intValue = byteValue;
-		System.out.println("intValue : "+intValue); // 10Àº int°ªÀÌ´Ù.
-		// Ä³½ºÆÃÀ¸·Î ÀÚµ¿º¯È¯µÈ °ÍÀÌ´Ù.
+		System.out.println("intValue : "+intValue); //10ì€ intê°’ì´ë‹¤.
+		//ìºìŠ¤íŒ…ìœ¼ë¡œ ìë™ë³€í™˜ëœ ê²ƒì´ë‹¤.
 		
-		char charValue = '°¡';
+		char charValue = 'ê°€';
 		intValue = charValue;
-		System.out.println("intValue : "+intValue); // 44032´Â int°ªÀÌ´Ù.
+		System.out.println("intValue : "+intValue); //44032ëŠ” intê°’ì´ë‹¤.
 		
 		intValue = 50;
 		long longValue = intValue;
-		System.out.println("longValue : "+longValue); // 50Àº long°ªÀÌ´Ù.
+		System.out.println("longValue : "+longValue); //50ì€ longê°’ì´ë‹¤.
 
 		longValue = 100;
 		float floatValue = longValue;
-		System.out.println("floatValue : "+floatValue); // 100.0Àº float°ªÀÌ´Ù.
+		System.out.println("floatValue : "+floatValue); //100.0ì€ floatê°’ì´ë‹¤.
 
 		floatValue = 100.5f;
 		double doubleValue = floatValue;
-		System.out.println("doubleValue : "+doubleValue); // 100.5Àº double°ªÀÌ´Ù.
+		System.out.println("doubleValue : "+doubleValue); //100.5ì€ doubleê°’ì´ë‹¤.
 	}
 }
