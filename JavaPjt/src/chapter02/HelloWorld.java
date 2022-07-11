@@ -5,7 +5,7 @@ public class HelloWorld {
 		String message = "헬로 월드";
 		System.out.println(message);
 		
-		message = "웰컴 투헬"; // 참조변수
+		message = "웰컴 투헬"; //참조변수
 		System.out.println(message);
 	}
 }

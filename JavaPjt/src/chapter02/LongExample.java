@@ -10,7 +10,7 @@ public class LongExample {
 		//L(l)을 넣으면, long type으로 인식한다.
 		//그래서 오류가 나지 않는다.
 		//long var5 = 10_000_000_000; 
-		//ERROR 이유 = 정수의 범위를 벗어낫기 때문에
+		//ERROR 이유 = 정수의 범위를 벗어났기 때문에
 		
 		System.out.println(var1); //10
 		System.out.println(var2); //20
