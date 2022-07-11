@@ -1,0 +1,19 @@
+package chapter02;
+
+public class LongExample {
+	public static void main(String[] args) {
+		// long var0 = 20f; // f는 정수가 아닌 실수라서 안된다.
+		long var1 = 10;
+		long var2 = 20L;
+		long var3 = 1_000_000_000; 
+		long var4 = 10_000_000_000l; 
+		// long var4 = 10_000_000_000; 
+		// ERROR 이유 = 정수의 범위를 벗어낫기 때문에
+		
+		
+		System.out.println(var1);
+		System.out.println(var2);
+		System.out.println(var3);
+		System.out.println(var4);
+	}
+}
