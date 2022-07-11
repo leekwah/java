@@ -1,0 +1,12 @@
+package chapter02;
+
+public class HelloWorld {
+	public static void main(String[] args) {
+		String message = "Çï·Î ¿ùµå";
+		System.out.println(message);
+		
+		String message2 = "Çï·Î ¿ùµå1";
+		System.out.println(message2);
+	}
+
+}

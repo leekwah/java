@@ -12,7 +12,6 @@ public class VariableUseExample {
 		
 		int totalSecond = (totalMinute*60);
 		System.out.println("√—" + totalSecond + "√ ");
-		
 	}
 
 }
