@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Ex5_1_tmp {
+public class Ex5_1_tmp1 {
 	public static void main(String[] args) {
 		// index : 0~2
 		String[] strArr = {"가위","바위","보"};
