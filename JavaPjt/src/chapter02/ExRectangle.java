@@ -4,13 +4,13 @@ import java.util.Scanner;
 
 public class ExRectangle {
 	public static void main(String[] args) {
-		System.out.print("ê°€ë¡œ, ì„¸ë¡œ ê¸¸ì´ë¥¼ ì…ë ¥í•˜ì„¸ìš”>>");
+		System.out.print("°¡·Î, ¼¼·Î ±æÀÌ¸¦ ÀÔ·ÂÇÏ¼¼¿ä>>");
 		Scanner scanner = new Scanner(System.in);
 		int width = scanner.nextInt();
 		int height = scanner.nextInt();
 		
 		int rectangleArea = width * height;
-		System.out.println("ì‚¬ê°í˜•ì˜ ë©´ì ì€"+rectangleArea+"ì…ë‹ˆë‹¤.");
+		System.out.println("»ç°¢ÇüÀÇ ¸éÀûÀº"+rectangleArea+"ÀÔ´Ï´Ù.");
 		scanner.close();
 	}
 }

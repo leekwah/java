@@ -2,13 +2,13 @@ package chapter02;
 
 public class Copy {
 	public static void main(String[] args) {
-		String origin="ê°€ë‚˜ë‹¤ë¼";
+		String origin="°¡³ª´Ù¶ó";
 		String copy = origin;
 		
-		System.out.println(origin); //"ê°€ë‚˜ë‹¤ë¼"
-		System.out.println(copy); //originì´ ë‚˜ì˜´ => "ê°€ë‚˜ë‹¤ë¼"
+		System.out.println(origin); //"°¡³ª´Ù¶ó"
+		System.out.println(copy); //originÀÌ ³ª¿È => "°¡³ª´Ù¶ó"
 		
-		copy = copy+"ë§ˆë°”ì‚¬";
-		System.out.println(copy); //"ê°€ë‚˜ë‹¤ë¼ë§ˆë°”ì‚¬"
+		copy = copy+"¸¶¹Ù»ç";
+		System.out.println(copy); //"°¡³ª´Ù¶ó¸¶¹Ù»ç"
 	}
 }

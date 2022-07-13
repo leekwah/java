@@ -4,12 +4,12 @@ import java.util.Scanner;
 
 public class SumMultiply {
 	public static void main(String[] args) {
-		System.out.print("2ê°œì˜ ì •ìˆ˜ ì…ë ¥ >>");
+		System.out.print("2°³ÀÇ Á¤¼ö ÀÔ·Â >>");
 		Scanner scanner = new Scanner(System.in);
 		int x = scanner.nextInt();
 		int y = scanner.nextInt();
-		System.out.println("ë‘ ìˆ˜ì˜ í•©ì€ "+(x+y));
-		System.out.println("ë‘ ìˆ˜ì˜ ê³±ì€ "+(x*y));
+		System.out.println("µÎ ¼öÀÇ ÇÕÀº "+(x+y));
+		System.out.println("µÎ ¼öÀÇ °öÀº "+(x*y));
 		scanner.close();
 	}
 }

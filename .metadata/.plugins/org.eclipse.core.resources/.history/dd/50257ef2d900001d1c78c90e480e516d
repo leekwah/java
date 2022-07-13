@@ -1,0 +1,9 @@
+package chapter02;
+
+public class LongOperationExample {
+	public static void main(String[] args) {
+		byte value1 = 10;
+		byte value2 = 100;
+		int value3 = 1000; // 127까지라서
+	}
+}

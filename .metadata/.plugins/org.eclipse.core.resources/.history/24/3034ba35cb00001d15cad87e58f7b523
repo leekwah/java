@@ -1,0 +1,10 @@
+package chapter02;
+
+public class TypeConversion {
+	public static void main(String[] args) {
+		byte b = 127; 
+		int i = 100;
+		System.out.println(b+i); // 227 // type = int 
+		System.out.println(10/4); // int로 계산했기 때문에 int인 2가 나온다. 
+	}
+}

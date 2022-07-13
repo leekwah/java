@@ -1,0 +1,8 @@
+package chapter02;
+
+public class CastingExample {
+	public static void main(String[] args) {
+		int inValue = 44032;
+		
+	}
+}

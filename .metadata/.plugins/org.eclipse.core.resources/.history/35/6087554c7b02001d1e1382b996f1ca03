@@ -1,0 +1,19 @@
+package chapter02;
+
+import java.util.Scanner;
+
+public class ExCalculation2 {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.print("2°³ÀÇ ½Ç¼ö ÀÔ·Â>> ");
+		float x = scanner.nextFloat();
+		float y = scanner.nextFloat();
+		System.out.println("µÎ ¼öÀÇ µ¡¼ÀÀº"+(x+y));
+		System.out.println("µÎ ¼öÀÇ »¬¼ÀÀº"+(x-y));
+		System.out.println("µÎ ¼öÀÇ °ö¼ÀÀº"+(x*y));
+		System.out.println("µÎ ¼öÀÇ ³ª´°¼ÀÀº"+(x/y));
+		scanner.close();
+	}
+
+}

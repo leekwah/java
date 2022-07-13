@@ -1,0 +1,13 @@
+package chapter02;
+
+import java.util.Scanner;
+
+public class SumMultiply {
+
+	public static void main(String[] args) {
+		Scanner scanner = new scanner(System.in);
+				
+
+	}
+
+}

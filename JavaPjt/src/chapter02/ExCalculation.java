@@ -5,13 +5,13 @@ import java.util.Scanner;
 public class ExCalculation {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		System.out.print("2ê°œì˜ ì‹¤ìˆ˜ ì…ë ¥>> ");
+		System.out.print("2°³ÀÇ ½Ç¼ö ÀÔ·Â>> ");
 		double x = scanner.nextDouble();
 		double y = scanner.nextDouble();
-		System.out.println("ë‘ ìˆ˜ì˜ ë§ì…ˆì€"+(x+y));
-		System.out.println("ë‘ ìˆ˜ì˜ ëº„ì…ˆì€"+(x-y));
-		System.out.println("ë‘ ìˆ˜ì˜ ê³±ì…ˆì€"+(x*y));
-		System.out.println("ë‘ ìˆ˜ì˜ ë‚˜ëˆ—ì…ˆì€"+(x/y));
+		System.out.println("µÎ ¼öÀÇ µ¡¼ÀÀº"+(x+y));
+		System.out.println("µÎ ¼öÀÇ »¬¼ÀÀº"+(x-y));
+		System.out.println("µÎ ¼öÀÇ °ö¼ÀÀº"+(x*y));
+		System.out.println("µÎ ¼öÀÇ ³ª´°¼ÀÀº"+(x/y));
 		scanner.close();
 	}
 }

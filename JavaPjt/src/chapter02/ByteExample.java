@@ -2,13 +2,13 @@ package chapter02;
 
 public class ByteExample {
 	public static void main(String[] args) {
-		//byte var0 = -129; byte ë²”ìœ„ëŠ” -128 ~ 127ê¹Œì§€ 
+		// byte var0 = -129; byte ¹üÀ§´Â -128 ~ 127±îÁö 
 		byte var1 = -128;
 		byte var2 = -30;
 		byte var3 = 0;
 		byte var4 = 30;
 		byte var5 = 127;
-		//byte var6 = 128; byte ë²”ìœ„ëŠ” -128 ~ 127ê¹Œì§€
+		//byte var6 = 128; byte ¹üÀ§´Â -128 ~ 127±îÁö
 		
 		System.out.println(var1); 
 		System.out.println(var2); 

@@ -1,0 +1,11 @@
+package chapter02;
+
+public class FloatDoubleExample {
+	public static void main(String[] args) {
+		//float var1 = (float) 3.14; // 형변환 
+		float var1 = 3.14f; // 기본값이 double이기에, 접미사로 f를 붙인다.
+		var1 = 3.14;  
+		
+		System.out.println("var1 : " + var1);
+	}
+}

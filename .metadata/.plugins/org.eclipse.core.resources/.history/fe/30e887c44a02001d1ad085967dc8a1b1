@@ -1,0 +1,8 @@
+package chapter01;
+
+
+public class AplusB {
+	int a = 1; int b = 2;
+	sysout
+	
+	}

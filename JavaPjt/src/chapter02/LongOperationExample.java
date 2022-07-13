@@ -4,7 +4,7 @@ public class LongOperationExample {
 	public static void main(String[] args) {
 		byte value1 = 10;
 		byte value2 = 100;
-		//byte value3 = 1000; //byte ë²”ìœ„ë¥¼ ë²—ì–´ë‚¨
+		//byte value3 = 1000; //byte ¹üÀ§¸¦ ¹þ¾î³²
 		long value3 = 1000; //
 		
 		int result1 = value1 + value2 + (byte)(value3);

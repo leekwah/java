@@ -1,0 +1,15 @@
+package chapter02;
+
+import java.util.Scanner;
+
+public class SumMultiply {
+
+	public static void main(String[] args) {
+		Scanner scanner = new scanner(System.in);
+		System.out.print("2개의 정수 입력 >>");
+		int x = int nextInt();
+		int y = int nextInt();
+		scanner.close();
+	}
+
+}

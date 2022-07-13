@@ -8,12 +8,12 @@ public class LogicalOperator {
 		System.out.println(3.45 <= 2);//False
 		System.out.println(3 == 2);//False
 		System.out.println(3 != 2);//True
-		System.out.println(!(3 != 2)); //Trueì˜ notì´ê¸°ì— False
+		System.out.println(!(3 != 2)); //TrueÀÇ notÀÌ±â¿¡ False
 		
 		System.out.println();
 		System.out.println((3 > 2) && (3 > 4)); //False
 		System.out.println((3 != 2) || (-1 > 0)); //True
-		System.out.println((3 != 2) ^ (-1 > 0)); //True = Aì™€ Bê°€ ë‹¤ë¥´ë©´ Trueê¸°ì—
+		System.out.println((3 != 2) ^ (-1 > 0)); //True = A¿Í B°¡ ´Ù¸£¸é True±â¿¡
 		System.out.println((3 >= 2) ^ (0 < 1)); //False
 	}
 }

@@ -2,13 +2,13 @@ package chapter02;
 
 public class CircleArea {
 	public static void main(String[] args) {
-		//ì›ì˜ ë„“ì´ë¥¼ êµ¬í•  ê²ƒì´ë‹¤. pi*r^2ì´ë‹¤.
-		//ì›ì˜ ë‘˜ë ˆëŠ” 2*pi*r
-		final double PI = 3.14; //finalì€ ìƒìˆ˜ì´ë‹¤.
-		//ìƒìˆ˜ì´ë©°, ë°ì´í„°íƒ€ì…ì€ ì‹¤ìˆ˜, doubleì´ê³ , ì´ë¦„ì€ PIì´ë‹¤.
-		double radius = 10.0; //ë°˜ì§€ë¦„
+		//¿øÀÇ ³ĞÀÌ¸¦ ±¸ÇÒ °ÍÀÌ´Ù. pi*r^2ÀÌ´Ù.
+		//¿øÀÇ µÑ·¹´Â 2*pi*r
+		final double PI = 3.14; //finalÀº »ó¼öÀÌ´Ù.
+		//»ó¼öÀÌ¸ç, µ¥ÀÌÅÍÅ¸ÀÔÀº ½Ç¼ö, doubleÀÌ°í, ÀÌ¸§Àº PIÀÌ´Ù.
+		double radius = 10.0; //¹İÁö¸§
 		
 		double circleArea = radius * radius * PI; //pi*r^2
-		System.out.println("ì›ì˜ ë©´ì  : " + circleArea);
+		System.out.println("¿øÀÇ ¸éÀû : " + circleArea);
 	}
 }

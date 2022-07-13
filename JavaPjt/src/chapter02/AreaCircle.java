@@ -4,12 +4,12 @@ import java.util.Scanner;
 
 public class AreaCircle {
 	public static void main(String[] args) {
-		System.out.print("ë°˜ì§€ë¦„ì„ ì…ë ¥í•˜ì„¸ìš”>>");
+		System.out.print("¹İÁö¸§À» ÀÔ·ÂÇÏ¼¼¿ä>>");
 		Scanner scanner = new Scanner(System.in);
 		int radius = scanner.nextInt();
 		
 		double circleArea = 3.14 * radius * radius;
-		System.out.print("ì›ì˜ ë©´ì ì€"+circleArea+"ì…ë‹ˆë‹¤.");
+		System.out.print("¿øÀÇ ¸éÀûÀº"+circleArea+"ÀÔ´Ï´Ù.");
 		scanner.close();
 	}
 }

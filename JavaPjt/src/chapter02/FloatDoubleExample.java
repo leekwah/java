@@ -2,9 +2,9 @@ package chapter02;
 
 public class FloatDoubleExample {
 	public static void main(String[] args) {
-		//float var1 = 3.14ëŠ” ê¸°ë³¸ê°’ì´ doubleì´ê¸°ì— ERRORê°€ ëœ¬ë‹¤.
-		float var1 = 3.14f; //ì ‘ë¯¸ì‚¬ë¡œ fë¥¼ ë¶™ì¸ë‹¤.
-		//float var1 = (float) 3.14; //í˜•ë³€í™˜ì„ í•œ ê²ƒì´ë‹¤.
+		//float var1 = 3.14´Â ±âº»°ªÀÌ doubleÀÌ±â¿¡ ERROR°¡ ¶á´Ù.
+		float var1 = 3.14f; //Á¢¹Ì»ç·Î f¸¦ ºÙÀÎ´Ù.
+		//float var1 = (float) 3.14; //Çüº¯È¯À» ÇÑ °ÍÀÌ´Ù.
 		double var2 = 3.14;
 		
 		float var3 = 0.123456789012345678901234211f;
@@ -21,12 +21,12 @@ public class FloatDoubleExample {
 		
 		System.out.println("var1 : " + var1);
 		System.out.println("var2 : " + var2);
-		System.out.println("var3 : " + var3); //7ë²ˆì§¸ë¶€í„° ë°˜ì˜¬ë¦¼
-		System.out.println("var4 : " + var4); //7ë²ˆì§¸ë¶€í„° ë°˜ì˜¬ë¦¼
+		System.out.println("var3 : " + var3); //7¹øÂ°ºÎÅÍ ¹İ¿Ã¸²
+		System.out.println("var4 : " + var4); //7¹øÂ°ºÎÅÍ ¹İ¿Ã¸²
 		System.out.println("var5 : " + var5); 
 		System.out.println("var6 : " + var6);
 		System.out.println("var7 : " + var7); //3000000.0
-		System.out.println("var8 : " + var8); //3000000.0 var7ê³¼ ê°™ì€ ê²°ê³¼ê°€ ë‚˜ì˜¨ë‹¤.
+		System.out.println("var8 : " + var8); //3000000.0 var7°ú °°Àº °á°ú°¡ ³ª¿Â´Ù.
 		System.out.println("var9 : " + var9); //0.003
 		System.out.println("var10 : " + var10); //0.003
 	}

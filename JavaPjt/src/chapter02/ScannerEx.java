@@ -4,24 +4,24 @@ import java.util.Scanner;
 
 public class ScannerEx {
 	public static void main(String[] args) {
-	System.out.println("ì´ë¦„, ë„ì‹œ, ë‚˜ì´, ì²´ì¤‘, ë…ì‹  ì—¬ë¶€ë¥¼ ë¹ˆì¹¸ìœ¼ë¡œ ë¶„ë¦¬í•˜ì—¬ ì…ë ¥í•˜ì„¸ìš”.");
+	System.out.println("ÀÌ¸§, µµ½Ã, ³ªÀÌ, Ã¼Áß, µ¶½Å ¿©ºÎ¸¦ ºóÄ­À¸·Î ºĞ¸®ÇÏ¿© ÀÔ·ÂÇÏ¼¼¿ä.");
 	Scanner scanner = new Scanner(System.in);
 	
 	String name = scanner.next();
-	System.out.print("ì´ë¦„ì€ "+name+", ");
+	System.out.print("ÀÌ¸§Àº "+name+", ");
 	
 	String city = scanner.next();
-	System.out.print("ë„ì‹œëŠ” "+city+", ");
+	System.out.print("µµ½Ã´Â "+city+", ");
 	
 	int age = scanner.nextInt();
-	System.out.print("ë‚˜ì´ëŠ” "+age+"ì‚´, ");
+	System.out.print("³ªÀÌ´Â "+age+"»ì, ");
 	
 	double weight = scanner.nextDouble();
-	System.out.print("ì²´ì¤‘ì€ "+weight+"kg, ");
+	System.out.print("Ã¼ÁßÀº "+weight+"kg, ");
 	
 	boolean single = scanner.hasNextBoolean();
-	System.out.print("ë…ì‹  ì—¬ë¶€ëŠ” "+single+"ì…ë‹ˆë‹¤.");
+	System.out.print("µ¶½Å ¿©ºÎ´Â "+single+"ÀÔ´Ï´Ù.");
 
-	scanner.close(); //Scanner ì…ë ¥ì´ ëë‚˜ë©´ closeë¥¼ í•œë‹¤.
+	scanner.close(); //Scanner ÀÔ·ÂÀÌ ³¡³ª¸é close¸¦ ÇÑ´Ù.
 	}
 }

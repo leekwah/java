@@ -2,10 +2,10 @@ package chapter02;
 
 public class HelloWorld {
 	public static void main(String[] args) {
-		String message = "í—¬ë¡œ ì›”ë“œ";
+		String message = "Çï·Î ¿ùµå";
 		System.out.println(message);
 		
-		message = "ì›°ì»´ íˆ¬í—¬"; //ì°¸ì¡°ë³€ìˆ˜
+		message = "À£ÄÄ ÅõÇï"; //ÂüÁ¶º¯¼ö
 		System.out.println(message);
 	}
 }

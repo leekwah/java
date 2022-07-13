@@ -3,6 +3,6 @@ package chapter02;
 public class TernaryOperator {
 	public static void main(String[] args) {
 		int a = 3, b = 5;
-		System.out.println("ë‘ ìˆ˜ì˜ ì°¨ëŠ” "+((a>b)?(a-b):(b-a)));
+		System.out.println("µÎ ¼öÀÇ Â÷´Â "+((a>b)?(a-b):(b-a)));
 	}
 }

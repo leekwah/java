@@ -6,8 +6,8 @@ public class ByteOperationExample {
 		System.out.println(result1);
 		
 		byte x = 10, y = 20;
-		//byte result2 = (byte)(x + y); //ìºìŠ¤íŒ…ì„ í•˜ê±°ë‚˜, 
-		int result2 = x + y; //result2ë¥¼ intë¡œ ë°”ê¾¼ë‹¤. 
+		//byte result2 = (byte)(x + y); //Ä³½ºÆÃÀ» ÇÏ°Å³ª, 
+		int result2 = x + y; //result2¸¦ int·Î ¹Ù²Û´Ù. 
 		System.out.println(result2);
 	}
 }

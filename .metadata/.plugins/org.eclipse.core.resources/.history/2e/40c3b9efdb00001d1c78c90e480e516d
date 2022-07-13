@@ -1,0 +1,11 @@
+package chapter02;
+
+public class h123 {
+
+	public static void main(String[] args) {
+		int x = 10000000;
+		int y = 10000000;
+		result = x * y;
+	}
+
+}

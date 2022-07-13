@@ -2,10 +2,10 @@ package chapter02;
 
 public class StringExample {
 	public static void main(String[] args) {
-		String name = "í™ê¸¸ë™";
-		String job = "í”„ë¡œê·¸ë˜ë¨¸";
+		String name = "È«±æµ¿";
+		String job = "ÇÁ·Î±×·¡¸Ó";
 		
-		System.out.println(name); // í™ê¸¸ë™ ì¶œë ¥
-		System.out.println(job); // í”„ë¡œê·¸ë˜ë¨¸ ì¶œë ¥
+		System.out.println(name); //È«±æµ¿ Ãâ·Â
+		System.out.println(job); //ÇÁ·Î±×·¡¸Ó Ãâ·Â
 	}
 }

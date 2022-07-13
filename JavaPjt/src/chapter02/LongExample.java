@@ -2,15 +2,15 @@ package chapter02;
 
 public class LongExample {
 	public static void main(String[] args) {
-		//long var0 = 20f; //fëŠ” ì •ìˆ˜ê°€ ì•„ë‹Œ ì‹¤ìˆ˜ë¼ì„œ ì•ˆëœë‹¤.
+		//long var0 = 20f; //f´Â Á¤¼ö°¡ ¾Æ´Ñ ½Ç¼ö¶ó¼­ ¾ÈµÈ´Ù.
 		long var1 = 10;
 		long var2 = 20L;
 		long var3 = 1_000_000_000; 
 		long var4 = 10_000_000_000L;
-		//L(l)ì„ ë„£ìœ¼ë©´, long typeìœ¼ë¡œ ì¸ì‹í•œë‹¤.
-		//ê·¸ë˜ì„œ ì˜¤ë¥˜ê°€ ë‚˜ì§€ ì•ŠëŠ”ë‹¤.
+		//L(l)À» ³ÖÀ¸¸é, long typeÀ¸·Î ÀÎ½ÄÇÑ´Ù.
+		//±×·¡¼­ ¿À·ù°¡ ³ªÁö ¾Ê´Â´Ù.
 		//long var5 = 10_000_000_000; 
-		//ERROR ì´ìœ  = ì •ìˆ˜ì˜ ë²”ìœ„ë¥¼ ë²—ì–´ë‚¬ê¸° ë•Œë¬¸ì—
+		//ERROR ÀÌÀ¯ = Á¤¼öÀÇ ¹üÀ§¸¦ ¹ş¾î³µ±â ¶§¹®¿¡
 		
 		System.out.println(var1); //10
 		System.out.println(var2); //20

@@ -2,9 +2,9 @@ package chapter02;
 
 public class VariableInitializationExample {
 	public static void main(String[] args) {
-		//í´ë˜ìŠ¤ëŠ” ì—¬ëŸ¬ê°œ ì˜¬ ìˆ˜ ìˆë‹¤.
-		//ë©”ì¸ ë©”ì†Œë“œëŠ” 1ê°œ ì´ìƒì˜¤ë©´ ì•ˆëœë‹¤.
-		//ë‹¤ë¥¸ ë©”ì†Œë“œëŠ” ì˜¬ ìˆ˜ ìˆë‹¤.
+		//Å¬·¡½º´Â ¿©·¯°³ ¿Ã ¼ö ÀÖ´Ù.
+		//¸ŞÀÎ ¸Ş¼Òµå´Â 1°³ ÀÌ»ó¿À¸é ¾ÈµÈ´Ù.
+		//´Ù¸¥ ¸Ş¼Òµå´Â ¿Ã ¼ö ÀÖ´Ù.
 		int value = 20;
 		int result = value + 10;
 		System.out.println(result);

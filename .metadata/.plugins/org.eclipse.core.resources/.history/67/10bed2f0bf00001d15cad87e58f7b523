@@ -1,0 +1,7 @@
+package chapter02;
+
+public class FloatDoubleExample {
+	public static void main(String[] args) {
+		float var1 = 3.14
+	}
+}
