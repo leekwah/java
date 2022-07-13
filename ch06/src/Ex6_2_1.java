@@ -1,5 +1,6 @@
-class Ex6_2 {
+class Ex6_2_1 {
 	public static void main(String args[]) {
+		// 객체마다 다른 저장공간을 갖는다.
 		Tv t1 = new Tv();  // Tv t1; t1 = new Tv();를 한 문장으로 가능
 		Tv t2 = new Tv();
 		
