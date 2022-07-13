@@ -30,7 +30,7 @@ public class Ex5_1_tmp3 {
 		System.out.println(Arrays.toString(arr6));
 		
 		int[] arr7 = {3, 2, 0, 1, 4};
-		System.out.println(Arrays.toString(arr7)); // [0, 1, 2, 3, 4]
+		System.out.println(Arrays.toString(arr7)); // [3, 2, 0, 1, 4]
 		Arrays.sort(arr7); // 배열 arr을 정렬한다.
 		System.out.println(Arrays.toString(arr7)); // [0, 1, 2, 3, 4]
 		
