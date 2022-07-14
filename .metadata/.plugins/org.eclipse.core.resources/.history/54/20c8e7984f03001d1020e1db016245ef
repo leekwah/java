@@ -1,0 +1,21 @@
+package chapter03;
+
+import java.util.Scanner;
+
+// 반복문 정수 여러개 입력, 평균출력, -1 입력 종료
+public class WhileExample {
+	public static void main(String[] args) {
+		int count = 0, sum = 0;
+		
+		Scanner scan = new Scanner(System.in);
+		System.out.println("정수를 입력하고 마지막에 -1을 입력하세요.");
+		
+		int n = scan.nextInt();
+		// n이 -1이 아닐 때 까지 반복
+		while (n != -1) {
+			
+		}
+		
+		scan.close();
+	}
+}

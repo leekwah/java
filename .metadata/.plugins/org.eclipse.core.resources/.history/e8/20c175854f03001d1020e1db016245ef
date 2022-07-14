@@ -1,0 +1,7 @@
+package chapter03;
+// 반복문 정수 여러개 입력, 평균출력, -1 입력 종료
+public class WhileExample {
+	public static void main(String[] args) {
+		int count = 0, sum = 0;
+	}
+}

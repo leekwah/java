@@ -1,0 +1,7 @@
+package chapter03;
+// 반복문 정수 여러개 입력
+public class WhileExample {
+	public static void main(String[] args) {
+		
+	}
+}
