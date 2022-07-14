@@ -22,7 +22,7 @@ public class Grading {
 		} else {
 			grade ='F';
 		}
-		System.out.println(grade);
+		System.out.println("학점은 "+grade+"입니다.");
 		a.close();
 	}
 }
