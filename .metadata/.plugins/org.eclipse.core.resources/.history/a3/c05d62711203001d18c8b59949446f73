@@ -1,0 +1,21 @@
+package chapter02;
+
+import java.util.Scanner;
+
+public class ExExchange {
+
+	public static void main(String[] args) {
+		final double RATE1 = 1200;
+		final double RATE2 = 1500;
+		Scanner a = new Scanner(System.in);
+		System.out.print("원화를 입력하세요 >> ");
+		int won = a.nextInt();
+		double dollar = won / RATE1;
+		double euro = won / RATE2;
+		System.out.println(won+"원은 "+dollar+"달러 입니다.");
+		System.out.println(won+"원은 "+euro+"유로 입니다.");
+		a.close();
+		
+	}
+
+}

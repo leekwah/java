@@ -1,0 +1,23 @@
+package chapter02;
+
+import java.util.Scanner;
+
+public class ExSumMultiply {
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.print("3의 자리 정수 입력 (100~999) >>");
+		int x = scan.nextInt();
+		//백의 자리와 십의 자리는 합하고, 10의 자리와 1의 자리를 곱하기를 하는 프로그램을 출력하라
+		int hundred = x/100; // 1출력
+		int one = x%10;
+		int z = x%100;
+		int ten = x/10; // 12
+		
+		System.out.println(one); // 23 출력
+		System.out.println(ten); // 12
+		System.out.println(hundred); // 1
+		
+		System.out.print("100의 자리와 10의 자리의 합은 : ");
+		System.out.print("10의 자리와 1의 자리의 곱은 : ");
+	}
+}

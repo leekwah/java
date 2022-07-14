@@ -1,0 +1,16 @@
+package chapter02;
+
+import java.util.Scanner;
+
+public class Won2Dollar2_1 {
+	// main메소드는 {} 전체 괄호 안에 있는 것들이고, main메소드 안에도 메소드가 포함될 수 있다.
+	public static void main(String[] args) {
+		// RATE는 상수로 쓰는 건 대문자로 쓰는 걸 추천한다.
+		final double RATE = 1100.0;
+		Scanner a = new Scanner(System.in);
+		System.out.print("원화를 입력하세요 >> ");
+		int won = a.nextInt();
+		double dollar = won / RATE;
+		System.out.println(won+"원은 "+dollar+"달러 입니다.");
+	}
+}

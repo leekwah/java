@@ -1,0 +1,18 @@
+package chapter02;
+
+import java.util.Scanner;
+
+public class Won2Dollar {
+	public static void main(String[] args) {
+		Scanner s = new Scanner(System.in);
+		System.out.print("원화를 입력하세요 >> ");
+		float x = s.nextFloat();
+		exchange(x);
+		System.out.println("원화는 "+x+"원 입니다.");
+		
+	}
+	public static float exchange() {
+		float dollar = float x / 1100
+		
+	}
+}

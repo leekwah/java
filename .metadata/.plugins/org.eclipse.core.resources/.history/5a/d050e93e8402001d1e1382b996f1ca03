@@ -1,0 +1,17 @@
+package chapter02;
+
+public class RandomNumber {
+	public static void main(String[] args) {
+		double n = rollDie();
+		System.out.println((int)(n*10));
+	}
+	// 반환타입은 double이다.
+	// 메소드명은 rollDie이다.
+	public static double rollDie() {
+		// random은 double타입이다. (그렇기 때문에 0과 1 사이의 실수를 반환한다.)
+		// 변수 x의 값으로 넣는다.
+		double x = Math.random();
+		// 타입이 맞지 않기 때문에, return이 바로 안된다.
+		return x;
+	}
+}

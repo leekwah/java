@@ -1,0 +1,13 @@
+package chapter02;
+
+import java.util.Scanner;
+
+public class Main {
+	public static void main(int[] args) {
+		Scanner s = s.Scanner(System.in);
+		int x = s.nextInt();
+		System.out.println(x);
+		
+	}
+
+}

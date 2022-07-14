@@ -1,0 +1,8 @@
+package chapter02;
+
+public class CoffeePrice {
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		
+	}
+}

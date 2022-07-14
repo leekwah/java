@@ -1,0 +1,19 @@
+package chapter02;
+
+import java.util.Scanner;
+
+public class Rectangle {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.print("점 (x,y)의 좌표를 입력하세요. >> ");
+		int x = scan.nextInt();
+		int y = scan.nextInt();
+		if ((200>=x && x>=100) && (200>=y && y>=100)) {
+			System.out.println("점 ("+x+", "+y+")는 사각형 안에 있습니다.");
+		} 
+			
+		scan.close();
+	}
+
+}
