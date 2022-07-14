@@ -1,0 +1,14 @@
+package chapter03;
+
+public class WhileTest {
+	public static void main(String[] args) {
+		int i = 0;
+		int oddnum = i+2;
+		
+		while (i<100) {
+			System.out.println(i);
+			int sum = i+2;
+		}
+	}
+}
+	
