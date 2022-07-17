@@ -11,8 +11,8 @@
 			</arguments>
 		</buildCommand>
 	</buildSpec>
-	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
+	<natures>
 	</natures>
 	<filteredResources>
 		<filter>
