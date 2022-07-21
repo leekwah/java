@@ -1,0 +1,23 @@
+package chapter03;
+
+import java.util.Scanner;
+
+public class ChangeMoney_1 {
+	// 여기에 변수를 넣으면 전역변수
+	final static int 오만원 = 50000;
+	final static int 만원 = 10000;
+	final static int 천원 = 1000;
+	final static int 오백원 = 500;
+	final static int 백원 = 100;
+	final static int 오십원 = 50;
+	final static int 십원 = 10;
+	final static int 일원 = 1;
+	
+	public static void main(String[] args) {
+		// 여기에 넣으면 지역변수
+		int res, money;
+		Scanner scan = new Scanner(System.in);
+		System.out.print("금액을 입력하시오 >> ");
+	}
+
+}

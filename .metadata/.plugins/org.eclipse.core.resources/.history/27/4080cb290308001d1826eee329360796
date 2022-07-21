@@ -1,0 +1,16 @@
+package chapter03;
+
+import java.util.Scanner;
+
+public class CoronaSum {
+	public static void main(String[] args) {
+		int intArray[] = new int[12];
+		int sum = 0;
+		
+		for (int i = 0; i < intArray.length; i++) {
+				sum += intArray[i];
+		}
+		System.out.println("1년 전체 코로나 환자수는 "+sum+"입니다.");
+		scan.close();
+	}
+}

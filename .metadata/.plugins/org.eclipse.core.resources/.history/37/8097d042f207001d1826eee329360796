@@ -1,0 +1,21 @@
+package chapter03;
+
+import java.util.Scanner;
+
+public class ChangeMoney {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.print("금액을 입력하시오 >> ");
+		int money = scan.nextInt();
+		int fiftythousand = money/50000;
+		int tenhousand = (money-50000*fiftythousand)/10000;
+		
+		
+		if (money>=50_000) {
+			System.out.println("오만원권 "+fiftythousand+"매"+" 만원 권 "+tenhousand+"매 ");
+		}
+		scan.close();
+	}
+
+}

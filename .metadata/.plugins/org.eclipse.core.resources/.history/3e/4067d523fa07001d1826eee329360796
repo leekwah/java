@@ -1,0 +1,13 @@
+package chapter03;
+
+import java.util.Scanner;
+
+public class ArrayMin {
+	public static void main(String[] args) {
+		int[] arr = new int[7];
+		Scanner scan = new Scanner(System.in);
+		scan.nextInt();
+		scan.close();
+	}
+	
+}

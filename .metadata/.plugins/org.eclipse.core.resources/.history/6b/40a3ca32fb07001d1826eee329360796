@@ -1,0 +1,22 @@
+package chapter03;
+
+import java.util.Scanner;
+
+public class ArrayMin {
+	public static void main(String[] args) {
+		int[] arr = new int[7];
+		int min = arr[0];		
+		Scanner scan = new Scanner(System.in);
+		System.out.println("양수 7개를 입력하세요.");
+		for (int i = 0; i < arr.length; i++) {
+			scan.nextInt();
+		    if(min<arr[i]) {
+		    	// min의 값보다 array[i]이 작으면 min = array[i]
+		    	min = arr[i];
+		        }
+		}
+		System.out.println("최소값 : "+min);
+		scan.close();
+	}
+	
+}

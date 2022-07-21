@@ -1,0 +1,30 @@
+package chapter03;
+
+import java.util.Scanner;
+
+public class Test2 {
+	public static void main(String[] args) {
+//		trynumber: 암호 입력 횟수	
+//		1.- 암호를 'myongji60'으로 초기화한다.
+//		trynumber = trynumber + 1
+//		-  input이 password와 같다면 "환영합니다"를 출력하고 종료한다
+//		- "암호가 틀립니다"를 출력한다.
+//		- trynumber가 3이라면 "접속을 거부합니다" 를 출력하고 종료한다
+		int trynumber = 0;
+		
+		Scanner scan = new Scanner(System.in);
+		String password = "myungji60";
+		String input;
+		for (int i=0; i<3; i++) {
+			System.out.print("비밀번호를 입력하세요>>>");
+			input = scan.next();
+			
+			if (input.equals(password)) {
+				System.out.println("암호가 틀립니다.")
+				break;
+			}
+			System.out.println("암호가 틀립니다.");
+		
+		scan.close();
+	}
+}

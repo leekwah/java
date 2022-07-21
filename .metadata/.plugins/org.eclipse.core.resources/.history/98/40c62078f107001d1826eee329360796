@@ -1,0 +1,11 @@
+package chapter03;
+
+import java.util.Scanner;
+
+public class ChangeMoney {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+	}
+
+}

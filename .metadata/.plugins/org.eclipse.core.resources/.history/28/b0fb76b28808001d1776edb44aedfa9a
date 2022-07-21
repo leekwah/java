@@ -1,0 +1,10 @@
+package chapter03;
+
+public class Clap {
+
+	public static void main(String[] args) {
+		int n, m, cnt;
+		
+	}
+
+}
