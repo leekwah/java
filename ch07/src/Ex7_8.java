@@ -8,8 +8,8 @@ class Product {
 	}
 }
 
-class Tv1 extends Product {
-	Tv1() {
+class Tv2 extends Product {
+	Tv2() {
 		// 조상클래스의 생성자 Product(int price)를 호출한다.
 		super(100);		// Tv의 가격을 100만원으로 한다.
 	}
@@ -44,7 +44,7 @@ class Ex7_8 {
 	public static void main(String args[]) {
 		Buyer b = new Buyer();
 
-		b.buy(new Tv1());
+		b.buy(new Tv2());
 		b.buy(new Computer());
 
 		System.out.println("현재 남은 돈은 " + b.money + "만원입니다.");

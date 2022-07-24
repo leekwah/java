@@ -10,8 +10,8 @@ class Product2 {
 	Product2() {} // 기본 생성자
 }
 
-class Tv2 extends Product2 {
-	Tv2() {  super(100);	 }
+class Tv4 extends Product2 {
+	Tv4() {  super(100);	 }
 
 	public String toString() { return "Tv"; }
 }
@@ -63,7 +63,7 @@ class Ex7_9 {
 	public static void main(String args[]) {
 		Buyer2 b = new Buyer2();
 
-		b.buy(new Tv2());
+		b.buy(new Tv4());
 		b.buy(new Computer2());
 		b.buy(new Audio2());
 		b.summary();

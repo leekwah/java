@@ -4,7 +4,7 @@ class Car2 {
 	int door;			// 문의 개수
 
 	Car2() {
-		this("white", "auto", 4);
+		this("white", "auto", 4); // Car2(String color, String gearType, int door)를 호출한 것이다.
 	}
 
 	Car2(String color) {
