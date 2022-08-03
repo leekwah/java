@@ -12,7 +12,6 @@ public class ArrayMinMax {
         int min = Integer.MAX_VALUE;
         int max = 0;
 
-
         System.out.println("양수를 10개를 입력하세요");
         for(int i = 0; i < intArray.length;i++) {
             intArray[i] = sc.nextInt();
