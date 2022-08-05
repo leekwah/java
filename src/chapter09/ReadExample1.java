@@ -10,7 +10,7 @@ public class ReadExample1 {
     // }
     public static void main(String[] args) throws Exception {
         // 업캐스팅, InputStream은 추상클래스
-        InputStream is = new FileInputStream("/Users/kwah/Documents/GitHub/space_java/JavaPjt/test.txt"); // 경로의 위치지정
+        InputStream is = new FileInputStream("/Users/kwah/Documents/GitHub/space_java/JavaPjt/io_test/test.txt"); // 경로의 위치지정
         int readByte;
 
         // EOF (End of File : -1 값을 체크하게 된다. = 파일 끝까지 읽었다는 것을 의미한다.)
