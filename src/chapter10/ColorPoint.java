@@ -6,10 +6,6 @@ class Point {
     public int getX() { return x; }
     public int getY() { return y; }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> github/master
     protected void move(int x, int y) { this.x = x; this.y = y; }
 }
 
@@ -35,8 +31,4 @@ public class ColorPoint extends Point {
         String str = cp.toString(); // Override 하지 않으면, 객체의 주소가 출력된다.
         System.out.println(str+"입니다.");
     }
-<<<<<<< HEAD
-=======
-
->>>>>>> github/master
 }
