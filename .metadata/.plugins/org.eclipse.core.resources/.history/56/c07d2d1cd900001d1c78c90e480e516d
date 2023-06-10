@@ -1,9 +1,0 @@
-package chapter02;
-
-public class ByteOperationExample {
-	public static void main(String[] args) {
-		byte result1 = 10+20+99;
-		System.out.println(result1);
-		
-	}
-}

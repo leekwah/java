@@ -1,9 +1,0 @@
-package chapter02;
-
-public class Won2Dollar {
-
-	public static void main(String[] args) {
-
-	}
-
-}

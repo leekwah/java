@@ -1,9 +1,0 @@
-package chapter03;
-
-public class ChangeMoney_1 {
-	// 여기에 변수를 넣으면 전역변수
-	public static void main(String[] args) {
-		// 여기에 넣으면 지역변수
-	}
-
-}
