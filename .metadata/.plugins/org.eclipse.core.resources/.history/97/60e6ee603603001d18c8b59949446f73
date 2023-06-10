@@ -1,7 +1,0 @@
-package chapter02;
-
-public class Pay {
-	public static void main(String[] args) {
-		
-	}
-}
